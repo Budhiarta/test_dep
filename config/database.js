@@ -1,7 +1,4 @@
-/**
- * @file Manages database connection configuration.
- * @author Fikri Rahmat Nurhidayat
- */
+const Sequelize = require("sequelize");
 
 /** Destruct environment variable to get database configuration */
 const {
